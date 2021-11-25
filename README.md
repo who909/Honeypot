@@ -16,7 +16,7 @@ MHN admin machine is hosted on Azure while honeypot is hosted on AWS. The only m
 
 **Summary:** Briefly in your own words, what does dionaea do?
 
-VM was exposed to internet due to Dinoaera's actions Many ports were discovered to be open and exploitable by an NMAP scan. The goal is to get hackers to provide malware for analysis.
+VM was exposed to internet due to Dinoaera's actions; Many ports were discovered to be open and exploitable by an NMAP scan. The goal is to get hackers to provide malware for analysis.
 
 <img src="dionaea-honeypot.gif">
 
