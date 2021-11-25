@@ -24,10 +24,18 @@ VM was exposed to internet due to Dinoaera's actions; Many ports were discovered
 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
-
+By creating a backup of MongoDB, we can see a list of attacks. The record consists of IP addresses, ports, and the protocols used for the attack. 
 
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
 
 ## Notes
+
+I had a couple of problems that made the assignment longer than it should.
+
+1. Google cloud did not want to take my payment. I used Paypal, debit, and credit cards, but google gave an error every time. 
+2. AWS worked fine until I had two machines. The first machine will lose connection after the second machine gets created. The first will still be running and working fine, but SSH or EC2 instance connect will not work at all. The main issue was trying to get the session.json file for the first machine.
+3. Azure works fine for the Mhn-admin but not for honeypot since they block all inbound and outbound connections. 
+
+After combing AWS and Azure, I was able to complete the assignment. 
 
 Describe any challenges encountered while doing the assignment.
