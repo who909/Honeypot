@@ -8,7 +8,7 @@
 
 **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
 
-I use Azure to depoly my MHN-admin machine and AWS for the honeypot. The only setting i change was adding inbound rules to the network settings. 
+MHN admin machine is hosted on Azure while honeypot is hosted on AWS. The only modification I made to the network settings was to add incoming rules.
 
 <img src="mhn-admin.gif">
 
@@ -16,7 +16,7 @@ I use Azure to depoly my MHN-admin machine and AWS for the honeypot. The only se
 
 **Summary:** Briefly in your own words, what does dionaea do?
 
-Dinoaera made my VM be expose to the internet. A NMAP scan restlted in displaying numerous ports being open and vulnerable. The purpuse is attrach malware so it can be anyslsya.  
+VM was exposed to internet due to Dinoaera's actions Many ports were discovered to be open and exploitable by an NMAP scan. The goal is to get hackers to provide malware for analysis.
 
 <img src="dionaea-honeypot.gif">
 
